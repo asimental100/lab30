@@ -6,9 +6,7 @@ import { Character } from './character';
 export const CharacterList = ({ characters }) => {
   const characterElements = characters.map(character => (
     <Link to={`/detail/${character._id}`} key={character.name}>
-      <li>
-        <Character {...character} />
-      </li>
+      <Character {...character} />
     </Link>
   ));
 

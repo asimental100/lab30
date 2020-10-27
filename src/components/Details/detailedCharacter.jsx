@@ -7,7 +7,7 @@ export const DetailedCharacter = ({ _id, name, image }) => (
     <li key={_id}>
       <h1>{name}</h1>
       <img src={image} alt={name}></img>
-      <p>The Hey Arnold API does not have any additional details</p>
+      <p>The Hey Arnold API does not have any additional details.</p>
     </li>
   </Link>
 );

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { CharacterList } from '../components/Characters/characterList';
 import { fetchAllCharacters, fetchCharacter } from '../services/fetch';
 import { DetailsPage } from '../components/Details/detailsPage';
-import PropTypes from 'prop-types';
 
 export const ArnoldCharacters = () => {
   const [loading, setLoading] = useState(true);
